@@ -54,11 +54,11 @@ if($Covid=='y')
 }
 else if($Covid=='n')
 {
-	$cov=0.88;
+	$cov=0.92;
 }
 if($Dose=='n')
 {
-	$dos=0.88;
+	$dos=0.93;
 }
 else if($Dose=='s')
 {
@@ -70,7 +70,7 @@ else if($Dose=='b')
 }
 if($Travel=='y')
 {
-	$trv=0.78;
+	$trv=0.87;
 }
 else if($Travel=='n')
 {
@@ -198,10 +198,6 @@ $final=$cov*$dos*$trv*100;
                   <tr>
                     <th>ADDRESS</th>
                     <td><p><?php echo $Address; ?></p></td>
-                  </tr>
-                  <tr>
-                    <th>COUNTRY</th>
-                    <td<p><?php echo $Country; ?></p></td>
                   </tr>
                   <tr>
                     <th>STATE</th>
