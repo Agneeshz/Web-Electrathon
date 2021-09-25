@@ -215,7 +215,17 @@ $final=$cov*$dos*$trv*100;
                 </tbody>
               </table>
             </div>
-			<p class="result">YOUR COVID SAFETY RATING : <p><?php echo $final; ?></p>
+      <p class="result">YOUR COVID SAFETY RATING : <p><?php echo $final; ?></p>
+      <p><?php if ($final>90)
+      echo "Very Safe";
+    else if ($final>70)
+      echo "Relatively safe";
+      else if ($final>60)
+      echo "Take precaution";
+      else
+      echo "Take strict precaution"; ?></p>
+      
+    </p>
           
         </div>
     </body>
