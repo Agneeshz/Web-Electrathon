@@ -1,2 +1,3 @@
 # Web-Electrathon
-RUN THE HTML FILE
+Run the file 02_webside.html
+XAMPP needs to be installed for it to run :)
