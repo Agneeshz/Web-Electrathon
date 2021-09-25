@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vaccination-details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      header {
+        /* background-color: orangered; */
+        height: 100vh;
+        position: relative;
+
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.616),
+            rgba(0, 0, 0, 0.24)
+          ),
+          url(1.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        /* background-image: linear-gradient(to right, red, blue); */
+        /* background-color: green; */
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+
+        /* in relation to the parent */
+        left: 50%;
+        top: 50%;
+
+        /* in relation to the element */
+        transform: translate(-50%, -50%);
+
+        /* background-color: violet; */
+
+        /* text-align: center; */
+      }
+
+      .header-container-inner {
+        width: 50%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #d0ebff;
+        color: #1864ab;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div></div>
+        <div></div>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-container-inner">
+          <h1>Covid Risk Assesment</h1>
+          <p>
+            Our website is dedicated for those who regard their health and well
+            being as their prime priority. With our risk assessment algorithms,
+            we are able to compute how susceptible a person may be to get covid.
+            This will surely ensure safer workplace, and community spaces for a
+            world in the post covid era.
+          </p>
+          <a href="http://localhost/FINAL/form_1.php" class="btn">CHECK</a>
+        </div>
+      </div>
+    </header>
+    <!-- <section>
+      <div class="container">
+        <h2>some random heading</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+          libero, ducimus animi eos facilis architecto voluptatum omnis minus
+          perspiciatis exercitationem nihil mollitia eius aut non sunt aliquid
+          provident? Facilis, error.
+        </p>
+      </div>
+    </section> -->
+  </body>
+</html>
